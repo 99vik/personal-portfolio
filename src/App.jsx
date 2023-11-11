@@ -1,5 +1,19 @@
+import Nav from './components/Nav';
+import About from './sections/About';
+import Contact from './sections/Contact';
+import Hero from './sections/Hero';
+import Projects from './sections/Projects';
+import Skills from './sections/Skills';
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-400">Hello world!</h1>
+    <>
+      <Nav />
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+    </>
   );
 }
