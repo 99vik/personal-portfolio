@@ -7,13 +7,13 @@ import Skills from './sections/Skills';
 
 export default function App() {
   return (
-    <>
+    <div className="flex flex-col">
       <Nav />
       <Hero />
       <About />
       <Skills />
       <Projects />
       <Contact />
-    </>
+    </div>
   );
 }
