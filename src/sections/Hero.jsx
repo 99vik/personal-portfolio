@@ -8,22 +8,33 @@ function Hero() {
   useEffect(() => {
     init(typingRef.current, {
       showCursor: false,
-      strings: ['Engineer', 'Developer'],
-      typeSpeed: 250,
-      backSpeed: 100,
-      backDelay: 2000,
-      startDelay: 1000,
+      strings: ['Mechanical Engineer', 'Full-stack Developer'],
+      typeSpeed: 150,
+      backSpeed: 60,
+      backDelay: 2200,
+      startDelay: 1200,
     });
   }, []);
 
   return (
-    <div className="h-screen bg-neutral-800 flex items-center justify-center">
+    <div className="h-screen bg-neutral-950 py-10 px-1">
       <div>
-        <p>Hello, I&apos;m Viktor</p>
-        <div className="bg-black text-white flex p-2">
-          <p>irb(main) : 001&#62;</p>
-          <div ref={typingRef}></div>
-          <div className="w-2 animate-blinking bg-white"></div>
+        <div className="font-mono flex flex-col gap-2 text-3xl text-white p-2 ">
+          <p>
+            <span className="text-green-600">viktor@user</span>:
+            <span className="text-amber-400">~</span>$ irb{' '}
+          </p>
+          <p>
+            irb(main):001&#62; <span>Hi!</span>
+          </p>
+          <p>
+            irb(main):002&#62; <span> I&apos;m Viktor</span>
+          </p>
+          <div className="flex">
+            <p className="mr-5">irb(main):003&#62;</p>
+            <div ref={typingRef}></div>
+            <div className="w-2 animate-blinking bg-white"></div>
+          </div>
         </div>
       </div>
     </div>
