@@ -6,7 +6,7 @@ import Skills from './sections/Skills';
 
 export default function App() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col overflow-x-hidden">
       <Hero />
       <About />
       <Skills />

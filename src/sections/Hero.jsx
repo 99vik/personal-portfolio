@@ -8,11 +8,11 @@ function Hero() {
   useEffect(() => {
     init(typingRef.current, {
       showCursor: false,
-      strings: ['Mechanical Engineer', 'Full-stack Developer'],
-      typeSpeed: 150,
-      backSpeed: 60,
+      strings: ['Full-stack Developer', 'Mechanical Engineer'],
+      typeSpeed: 130,
+      backSpeed: 50,
       backDelay: 2200,
-      startDelay: 1200,
+      startDelay: 1400,
     });
   }, []);
 
