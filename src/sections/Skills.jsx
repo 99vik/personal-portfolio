@@ -21,7 +21,7 @@ function Skills() {
   return (
     <div className="bg-neutral-900 h-screen z-50 relative flex flex-col justify-start items-center">
       <div className="h-[500px] w-[300px] animate-bgLight bg-emerald-500 rounded-full z-50 blur-3xl absolute -top-[45%] right-0"></div>
-      <div className="flex w-[65%] flex-col gap-8">
+      <div className="flex w-[850px] flex-col gap-8">
         <div className="flex items-center">
           <div className="h-[1px] mt-3 mr-5 flex-1 bg-gradient-to-r from-emerald-900 to bg-emerald-400"></div>
           <h1 className="text-emerald-400 text-3xl font-semibold">
@@ -29,7 +29,7 @@ function Skills() {
           </h1>
           <div className="h-[1px] mt-3 ml-5 flex-1 bg-gradient-to-r from-emerald-400 to bg-emerald-300"></div>
         </div>
-        <div className="bg-black card flex gap-10 text-neutral-400 text-sm font-semibold px-4 pt-10 pb-12 rounded-xl">
+        <div className="bg-neutral-950 card flex gap-10 text-neutral-400 text-sm font-semibold px-4 pt-10 pb-12 rounded-xl">
           <div className="flex-1">
             <h1 className="text-center text-emerald-400 font-semibold text-lg mb-8">
               Languages
@@ -63,7 +63,7 @@ function Skills() {
           </div>
           <div className="flex-1">
             <h1 className="text-center text-emerald-400 font-semibold text-lg mb-8 whitespace-nowrap">
-              Frameworks, libraries and databases
+              Frameworks, libraries, databases
             </h1>
             <div className="grid grid-cols-2 justify-items-center gap-y-8">
               <div className="flex flex-col justify-center items-center gap-1">
