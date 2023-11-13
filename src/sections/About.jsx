@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="bg-gradient-to-b flex font-semibold z-0 text-neutral-300 text-lg items-start justify-center from-neutral-950 to-neutral-900 py-10 px-20">
+    <div className="bg-gradient-to-b flex font-semibold z-0 text-neutral-300 text-lg items-start justify-center from-neutral-950 to-neutral-900 h-screen py-10 px-20">
       <div className="w-[700px] flex flex-col gap-3">
         <div className="flex items-center">
           <div className="h-[1px] mt-3 mr-5 flex-1 bg-gradient-to-r from-emerald-900 to bg-emerald-400"></div>

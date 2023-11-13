@@ -20,4 +20,42 @@
       }
   }
 
+  @property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }  
   
+  .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .card::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    color: #171717;
+    transform: scale(1);
+    filter: blur(6px);
+    background-image: linear-gradient(
+      var(--rotate)
+      , rgba(5, 204, 248), #34d39900, rgba(6, 255, 164));
+      opacity: 1;
+    transition: opacity 0.5s;
+    animation: spin 16s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
