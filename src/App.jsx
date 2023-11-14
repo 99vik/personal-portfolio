@@ -1,8 +1,8 @@
-import About from './sections/About';
-import Contact from './sections/Contact';
-import Hero from './sections/Hero';
-import Projects from './sections/Projects';
-import Skills from './sections/Skills';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Hero from './Components/Hero';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
 
 export default function App() {
   return (

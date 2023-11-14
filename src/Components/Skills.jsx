@@ -1,4 +1,4 @@
-import '../scripts/ImagesExports.js';
+import '../utils/ImagesExports.js';
 import {
   CSSIcon,
   GitIcon,
@@ -15,7 +15,7 @@ import {
   VSCodeIcon,
   ViteIcon,
   WebpackIcon,
-} from '../scripts/ImagesExports.js';
+} from '../utils/ImagesExports.js';
 
 function Skills() {
   return (
