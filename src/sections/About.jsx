@@ -2,14 +2,12 @@ import SectionTitle from '../components/SectionTitle';
 import { about } from '../utils/content/about';
 
 function About() {
-  const content = about.map((sentence) => {
+  const content = about.map((sentence, index) => {
     return (
-      <>
-        <div className="flex">
-          <span className="text-emerald-400 mr-2">&#62;</span>
-          {sentence}
-        </div>
-      </>
+      <div key={index} className="flex">
+        <span className="text-emerald-400 mr-2">&#62;</span>
+        {sentence}
+      </div>
     );
   });
 
