@@ -3,14 +3,14 @@ import { useState, useEffect } from 'react';
 import { config } from 'react-spring';
 
 export default function Carroussel(props) {
-  const table = props.cards.map((element, index) => {
+  const table = props.projects.map((element, index) => {
     return { ...element, onClick: () => setGoToSlide(index) };
   });
 
   const [offsetRadius, setOffsetRadius] = useState(4);
   const [showArrows, setShowArrows] = useState(false);
   const [goToSlide, setGoToSlide] = useState(null);
-  const [cards] = useState(table);
+  const [projects] = useState(table);
 
   useEffect(() => {
     setOffsetRadius(props.offset);
@@ -22,7 +22,7 @@ export default function Carroussel(props) {
       style={{ width: props.width, height: props.height, margin: props.margin }}
     >
       <Carousel
-        slides={cards}
+        slides={projects}
         goToSlide={goToSlide}
         offsetRadius={offsetRadius}
         showNavigation={showArrows}

@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
+import ImageSlider from './ImageSlider';
 
-function Card({ imagen }) {
+function Card({ project }) {
   const [show, setShown] = useState(false);
 
   const props3 = useSpring({
@@ -13,17 +14,15 @@ function Card({ imagen }) {
   });
   return (
     <animated.div
+      className="flex flex-col justify-center items-center h-fit w-[400px] bg-black p-2 rounded-lg"
       style={props3}
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      <img src={imagen} alt="" />
-      <h2>Title</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-        nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-        volutpat.
-      </p>
+      {/* <img src={project.image} alt="" /> */}
+      <ImageSlider images={null} />
+      <h2 className="text-white">{project.name}</h2>
+      <p className="text-white">{project.description}</p>
     </animated.div>
   );
 }
