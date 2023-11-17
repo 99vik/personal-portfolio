@@ -1,34 +1,29 @@
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 export default function ImageSlider({ images }) {
   let [current, setCurrent] = useState(0);
 
-  const _images = [
-    'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-    'https://updates.theme-fusion.com/wp-content/uploads/2017/12/acf_pro.png',
-    'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-  ];
-
   function previousSlide() {
-    if (current === 0) setCurrent(_images.length - 1);
+    if (current === 0) setCurrent(images.length - 1);
     else setCurrent(current - 1);
   }
 
   function nextSlide() {
-    if (current === _images.length - 1) setCurrent(0);
+    if (current === images.length - 1) setCurrent(0);
     else setCurrent(current + 1);
   }
 
   return (
     <div className="overflow-hidden relative">
       <div
-        className={`flex transition ease-out duration-40`}
+        className={`flex transition ease-out duration-300`}
         style={{
           transform: `translateX(-${current * 100}%)`,
         }}
       >
-        {_images.map((s) => {
-          return <img src={s} />;
+        {images.map((image, index) => {
+          return <img key={index} src={image} />;
         })}
       </div>
 
@@ -38,15 +33,15 @@ export default function ImageSlider({ images }) {
       </div>
 
       <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
-        {_images.map((s, i) => {
+        {images.map((image, index) => {
           return (
             <div
               onClick={() => {
-                setCurrent(i);
+                setCurrent(index);
               }}
-              key={'circle' + i}
-              className={`rounded-full w-5 h-5 cursor-pointer  ${
-                i == current ? 'bg-white' : 'bg-gray-500'
+              key={index}
+              className={`rounded-full w-5 h-5 cursor-pointer duration-300  ${
+                index == current ? 'bg-white' : 'bg-gray-500'
               }`}
             ></div>
           );
@@ -55,3 +50,7 @@ export default function ImageSlider({ images }) {
     </div>
   );
 }
+
+ImageSlider.propTypes = {
+  images: PropTypes.array,
+};

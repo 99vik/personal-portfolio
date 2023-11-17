@@ -1,4 +1,3 @@
-import { useEffect, useState } from 'react';
 import SectionTitle from '../components/SectionTitle';
 import Carousel from '../components/Carousel';
 import Card from '../components/Card';
@@ -19,7 +18,6 @@ function Projects() {
         projects={projects}
         height="500px"
         width="100%"
-        margin="0 auto"
         offset={200}
         showArrows={true}
       />

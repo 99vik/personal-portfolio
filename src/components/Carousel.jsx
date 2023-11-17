@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import Carousel from 'react-spring-3d-carousel';
 import { useState, useEffect } from 'react';
 import { config } from 'react-spring';
@@ -18,9 +19,7 @@ export default function Carroussel(props) {
   }, [props.offset, props.showArrows]);
 
   return (
-    <div
-      style={{ width: props.width, height: props.height, margin: props.margin }}
-    >
+    <div style={{ width: props.width, height: props.height }}>
       <Carousel
         slides={projects}
         goToSlide={goToSlide}
@@ -31,3 +30,11 @@ export default function Carroussel(props) {
     </div>
   );
 }
+
+Carroussel.propTypes = {
+  projects: PropTypes.array,
+  offset: PropTypes.number,
+  showArrows: PropTypes.bool,
+  width: PropTypes.string,
+  height: PropTypes.string,
+};

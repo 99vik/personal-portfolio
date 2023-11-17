@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 import ImageSlider from './ImageSlider';
+import PropTypes from 'prop-types';
 
 function Card({ project }) {
   const [show, setShown] = useState(false);
@@ -19,12 +20,15 @@ function Card({ project }) {
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}
     >
-      {/* <img src={project.image} alt="" /> */}
-      <ImageSlider images={null} />
+      <ImageSlider images={project.images} />
       <h2 className="text-white">{project.name}</h2>
       <p className="text-white">{project.description}</p>
     </animated.div>
   );
 }
+
+Card.propTypes = {
+  project: PropTypes.object,
+};
 
 export default Card;

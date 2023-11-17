@@ -1,6 +1,5 @@
 import { init } from 'ityped';
-import { useEffect } from 'react';
-import { useRef } from 'react';
+import { useEffect, useRef } from 'react';
 
 function Hero() {
   const typingRef = useRef(0);
