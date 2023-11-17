@@ -23,7 +23,7 @@ export default function ImageSlider({ images }) {
         }}
       >
         {images.map((image, index) => {
-          return <img key={index} src={image} />;
+          return <img className="rounded-md" key={index} src={image} />;
         })}
       </div>
 

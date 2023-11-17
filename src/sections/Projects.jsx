@@ -13,14 +13,10 @@ function Projects() {
 
   return (
     <div className="h-screen bg-gradient-to-b from-neutral-900 to-neutral-800 flex flex-col justify-start items-center relative">
-      <SectionTitle title="Projects" />
-      <Carousel
-        projects={projects}
-        height="500px"
-        width="100%"
-        offset={200}
-        showArrows={true}
-      />
+      <div className="w-[700px]">
+        <SectionTitle title="Projects" />
+      </div>
+      <Carousel projects={projects} />
     </div>
   );
 }

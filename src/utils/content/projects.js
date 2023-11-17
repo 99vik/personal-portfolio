@@ -1,44 +1,69 @@
 const projects = [
   {
-    name: 'project1 title',
+    name: 'Messaging App',
     images: [
       'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
       'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
     ],
-    description: 'description project1',
+    description: 'Chatting application built with React and Rails API',
   },
   {
-    name: 'project2 title',
+    name: "Where's Waldo?",
     images: [
       'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
       'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
     ],
     description:
-      'description project2 description project2 description project2 description project2 description project2 description project2',
+      "Where's Waldo browser game built with React frontend and Rails API",
   },
   {
-    name: 'project3 title',
+    name: 'Odinbook',
     images: [
       'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
       'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
     ],
-    description: 'description project3',
+    description: 'Simple social media app built with Ruby on Rails',
   },
   {
-    name: 'project4 title',
+    name: 'Shopping Cart',
     images: [
       'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
       'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
     ],
-    description: 'description project4',
+    description:
+      'Simple React e-commerce app, fetching items from fakeapistore.com',
   },
   {
-    name: 'project5 title',
+    name: 'To-Do',
     images: [
       'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
       'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
     ],
-    description: 'description project5',
+    description: 'To-do list application with vanilla JavaScript',
+  },
+  {
+    name: 'Battleship',
+    images: [
+      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
+      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
+    ],
+    description: 'Battleship game built with vanilla JavaScript',
+  },
+  {
+    name: 'Weather app',
+    images: [
+      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
+      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
+    ],
+    description: 'Weather forecast application based on WeatherAPI',
+  },
+  {
+    name: 'Chess',
+    images: [
+      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
+      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
+    ],
+    description: 'CLI chess game built with Ruby',
   },
 ];
 

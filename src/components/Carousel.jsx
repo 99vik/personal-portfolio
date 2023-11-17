@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import Carousel from 'react-spring-3d-carousel';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { config } from 'react-spring';
 
 export default function Carroussel(props) {
@@ -8,25 +8,51 @@ export default function Carroussel(props) {
     return { ...element, onClick: () => setGoToSlide(index) };
   });
 
-  const [offsetRadius, setOffsetRadius] = useState(4);
-  const [showArrows, setShowArrows] = useState(false);
   const [goToSlide, setGoToSlide] = useState(null);
   const [projects] = useState(table);
 
-  useEffect(() => {
-    setOffsetRadius(props.offset);
-    setShowArrows(props.showArrows);
-  }, [props.offset, props.showArrows]);
-
   return (
-    <div style={{ width: props.width, height: props.height }}>
-      <Carousel
-        slides={projects}
-        goToSlide={goToSlide}
-        offsetRadius={offsetRadius}
-        showNavigation={showArrows}
-        animationConfig={config.gentle}
-      />
+    <div className="flex-1 w-full flex -mt-36 justify-between">
+      <div className="flex items-center justify-center">
+        <button
+          onClick={() => {
+            setGoToSlide(goToSlide - 1);
+          }}
+          className="hover:scale-110 transition rotate-180 px-20"
+        >
+          <svg
+            className="fill-emerald-400 h-12"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path d="M2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2A10,10 0 0,0 2,12M4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12M10,17L15,12L10,7V17Z" />
+          </svg>
+        </button>
+      </div>
+      <div className="w-[80%]">
+        <Carousel
+          slides={projects}
+          goToSlide={goToSlide}
+          offsetRadius={2}
+          animationConfig={config.gentle}
+        />
+      </div>
+      <div className="flex items-center justify-center">
+        <button
+          onClick={() => {
+            setGoToSlide(goToSlide + 1);
+          }}
+          className="hover:scale-110 z-50 px-20"
+        >
+          <svg
+            className="fill-emerald-400 h-12"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path d="M2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2A10,10 0 0,0 2,12M4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12M10,17L15,12L10,7V17Z" />
+          </svg>
+        </button>
+      </div>
     </div>
   );
 }
