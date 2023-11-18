@@ -4,6 +4,9 @@
 
 
 @layer components {
+    body {
+      overscroll-behavior: none;
+    }
     html {
       scroll-behavior: smooth;
     }
