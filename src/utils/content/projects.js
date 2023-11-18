@@ -1,68 +1,76 @@
+import {
+  BattleshipImg1,
+  BattleshipImg2,
+  BattleshipImg3,
+  ChessImg1,
+  ChessImg2,
+  MessageAppImg1,
+  MessageAppImg2,
+  MessageAppImg3,
+  OdinbookImg1,
+  OdinbookImg2,
+  OdinbookImg3,
+  ShoppingAppImg1,
+  ShoppingAppImg2,
+  ShoppingAppImg3,
+  ShoppingAppImg4,
+  TodoImg1,
+  TodoImg2,
+  TodoImg3,
+  WaldoImg1,
+  WaldoImg2,
+  WaldoImg3,
+  WeatherApp1,
+  WeatherApp2,
+  WeatherApp3,
+} from '../ImagesExports';
+
 const projects = [
   {
     name: 'Messaging App',
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [MessageAppImg1, MessageAppImg2, MessageAppImg3],
     description: 'Chatting application built with React and Rails API',
   },
   {
     name: "Where's Waldo?",
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [WaldoImg1, WaldoImg2, WaldoImg3],
     description:
       "Where's Waldo browser game built with React frontend and Rails API",
   },
   {
     name: 'Odinbook',
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [OdinbookImg1, OdinbookImg2, OdinbookImg3],
     description: 'Simple social media app built with Ruby on Rails',
   },
   {
     name: 'Shopping Cart',
     images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
+      ShoppingAppImg1,
+      ShoppingAppImg2,
+      ShoppingAppImg3,
+      ShoppingAppImg4,
     ],
     description:
       'Simple React e-commerce app, fetching items from fakeapistore.com',
   },
   {
     name: 'To-Do',
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [TodoImg1, TodoImg2, TodoImg3],
     description: 'To-do list application with vanilla JavaScript',
   },
   {
     name: 'Battleship',
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [BattleshipImg1, BattleshipImg2, BattleshipImg3],
     description: 'Battleship game built with vanilla JavaScript',
   },
   {
     name: 'Weather app',
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [WeatherApp1, WeatherApp2, WeatherApp3],
     description: 'Weather forecast application based on WeatherAPI',
   },
   {
     name: 'Chess',
-    images: [
-      'https://updates.theme-fusion.com/wp-content/uploads/2017/12/layer_slider_plugin_thumb.png',
-      'https://updates.theme-fusion.com/wp-content/uploads/2016/08/slider_revolution-1.png',
-    ],
+    images: [ChessImg1, ChessImg2],
     description: 'CLI chess game built with Ruby',
   },
 ];

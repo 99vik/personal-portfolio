@@ -13,6 +13,30 @@ import GithubIcon from '../assets/skills-icons/github.png';
 import ViteIcon from '../assets/skills-icons/vite.png';
 import WebpackIcon from '../assets/skills-icons/webpack.png';
 import VSCodeIcon from '../assets/skills-icons/vscode.png';
+import MessageAppImg1 from '../assets/projects/messageapp1.png';
+import MessageAppImg2 from '../assets/projects/messageapp2.png';
+import MessageAppImg3 from '../assets/projects/messageapp3.png';
+import WaldoImg1 from '../assets/projects/waldo1.png';
+import WaldoImg2 from '../assets/projects/waldo2.png';
+import WaldoImg3 from '../assets/projects/waldo3.png';
+import ShoppingAppImg1 from '../assets/projects/shoppingapp1.png';
+import ShoppingAppImg2 from '../assets/projects/shoppingapp2.png';
+import ShoppingAppImg3 from '../assets/projects/shoppingapp3.png';
+import ShoppingAppImg4 from '../assets/projects/shoppingapp4.png';
+import OdinbookImg1 from '../assets/projects/odinbook1.png';
+import OdinbookImg2 from '../assets/projects/odinbook2.png';
+import OdinbookImg3 from '../assets/projects/odinbook3.png';
+import TodoImg1 from '../assets/projects/todo1.png';
+import TodoImg2 from '../assets/projects/todo2.png';
+import TodoImg3 from '../assets/projects/todo3.png';
+import WeatherApp1 from '../assets/projects/weatherapp1.png';
+import WeatherApp2 from '../assets/projects/weatherapp2.png';
+import WeatherApp3 from '../assets/projects/weatherapp3.png';
+import BattleshipImg1 from '../assets/projects/battleship1.png';
+import BattleshipImg2 from '../assets/projects/battleship2.png';
+import BattleshipImg3 from '../assets/projects/battleship3.png';
+import ChessImg1 from '../assets/projects/chess1.png';
+import ChessImg2 from '../assets/projects/chess2.png';
 
 export {
   JavaScriptIcon,
@@ -30,4 +54,28 @@ export {
   ViteIcon,
   WebpackIcon,
   VSCodeIcon,
+  MessageAppImg1,
+  MessageAppImg2,
+  MessageAppImg3,
+  ShoppingAppImg1,
+  ShoppingAppImg2,
+  ShoppingAppImg3,
+  ShoppingAppImg4,
+  WaldoImg1,
+  WaldoImg2,
+  WaldoImg3,
+  OdinbookImg1,
+  OdinbookImg2,
+  OdinbookImg3,
+  TodoImg1,
+  TodoImg2,
+  TodoImg3,
+  BattleshipImg1,
+  BattleshipImg2,
+  BattleshipImg3,
+  WeatherApp1,
+  WeatherApp2,
+  WeatherApp3,
+  ChessImg1,
+  ChessImg2,
 };

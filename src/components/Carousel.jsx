@@ -12,13 +12,13 @@ export default function Carroussel(props) {
   const [projects] = useState(table);
 
   return (
-    <div className="flex-1 w-full flex -mt-36 justify-between">
-      <div className="flex items-center justify-center">
+    <div className="flex-1 w-full flex -mt-28 justify-between">
+      <div className="flex items-center justify-center w-[5%]">
         <button
           onClick={() => {
             setGoToSlide(goToSlide - 1);
           }}
-          className="hover:scale-110 transition rotate-180 px-20"
+          className="hover:scale-110 transition rotate-180"
         >
           <svg
             className="fill-emerald-400 h-12"
@@ -29,7 +29,7 @@ export default function Carroussel(props) {
           </svg>
         </button>
       </div>
-      <div className="w-[80%]">
+      <div className="w-[35%]">
         <Carousel
           slides={projects}
           goToSlide={goToSlide}
@@ -37,12 +37,12 @@ export default function Carroussel(props) {
           animationConfig={config.gentle}
         />
       </div>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center w-[5%]">
         <button
           onClick={() => {
             setGoToSlide(goToSlide + 1);
           }}
-          className="hover:scale-110 z-50 px-20"
+          className="hover:scale-110 z-50"
         >
           <svg
             className="fill-emerald-400 h-12"
