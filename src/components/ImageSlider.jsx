@@ -23,18 +23,32 @@ export default function ImageSlider({ images }) {
         }}
       >
         {images.map((image, index) => {
-          return (
-            <img className="rounded-md max-h-[420px]" key={index} src={image} />
-          );
+          return <img className="rounded-md " key={index} src={image} />;
         })}
       </div>
 
-      <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl">
-        <button onClick={previousSlide}>previous</button>
-        <button onClick={nextSlide}>next </button>
+      <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-1 text-3xl">
+        <button onClick={previousSlide}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            className="fill-emerald-500 h-16 hover:scale-110"
+          >
+            <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+          </svg>
+        </button>
+        <button onClick={nextSlide}>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            className="fill-emerald-500 h-16 hover:scale-110 rotate-180"
+          >
+            <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+          </svg>{' '}
+        </button>
       </div>
 
-      <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
+      <div className="absolute bottom-0 py-3 flex justify-center gap-2 w-full">
         {images.map((image, index) => {
           return (
             <div
@@ -42,8 +56,8 @@ export default function ImageSlider({ images }) {
                 setCurrent(index);
               }}
               key={index}
-              className={`rounded-full w-5 h-5 cursor-pointer duration-300  ${
-                index == current ? 'bg-white' : 'bg-gray-500'
+              className={`rounded-full w-3 h-3 cursor-pointer duration-300  ${
+                index == current ? 'bg-emerald-400' : 'bg-emerald-800'
               }`}
             ></div>
           );

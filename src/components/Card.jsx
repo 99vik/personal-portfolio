@@ -8,14 +8,14 @@ function Card({ project }) {
 
   const props = useSpring({
     opacity: 1,
-    transform: show ? 'scale(1.01)' : 'scale(1)',
+    transform: show ? 'scale(1.15)' : 'scale(1)',
     boxShadow: show
-      ? '0 20px 25px rgb(0 0 0 / 25%)'
-      : '0 2px 10px rgb(0 0 0 / 8%)',
+      ? '0px 0px 8px rgb(16 185 129 / 75%)'
+      : '0 0px 0px rgb(0 0 0 / 8%)',
   });
   return (
     <animated.div
-      className="flex flex-col justify-start items-start w-[900px] bg-black p-2 rounded-lg"
+      className="flex flex-col justify-start items-start w-[800px] bg-black p-2 rounded-lg"
       style={props}
       onMouseEnter={() => setShown(true)}
       onMouseLeave={() => setShown(false)}

@@ -16,6 +16,9 @@ import VSCodeIcon from '../assets/skills-icons/vscode.png';
 import MessageAppImg1 from '../assets/projects/messageapp1.png';
 import MessageAppImg2 from '../assets/projects/messageapp2.png';
 import MessageAppImg3 from '../assets/projects/messageapp3.png';
+import MessageAppImg4 from '../assets/projects/messageapp4.png';
+import MessageAppImg5 from '../assets/projects/messageapp5.png';
+import MessageAppImg6 from '../assets/projects/messageapp6.png';
 import WaldoImg1 from '../assets/projects/waldo1.png';
 import WaldoImg2 from '../assets/projects/waldo2.png';
 import WaldoImg3 from '../assets/projects/waldo3.png';
@@ -57,6 +60,9 @@ export {
   MessageAppImg1,
   MessageAppImg2,
   MessageAppImg3,
+  MessageAppImg4,
+  MessageAppImg5,
+  MessageAppImg6,
   ShoppingAppImg1,
   ShoppingAppImg2,
   ShoppingAppImg3,

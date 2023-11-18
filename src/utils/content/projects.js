@@ -7,6 +7,9 @@ import {
   MessageAppImg1,
   MessageAppImg2,
   MessageAppImg3,
+  MessageAppImg4,
+  MessageAppImg5,
+  MessageAppImg6,
   OdinbookImg1,
   OdinbookImg2,
   OdinbookImg3,
@@ -28,7 +31,14 @@ import {
 const projects = [
   {
     name: 'Messaging App',
-    images: [MessageAppImg1, MessageAppImg2, MessageAppImg3],
+    images: [
+      MessageAppImg1,
+      MessageAppImg2,
+      MessageAppImg3,
+      MessageAppImg4,
+      MessageAppImg5,
+      MessageAppImg6,
+    ],
     description: 'Chatting application built with React and Rails API',
   },
   {
