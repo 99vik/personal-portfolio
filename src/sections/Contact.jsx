@@ -2,12 +2,10 @@ import SectionTitle from '../components/SectionTitle';
 
 function Contact() {
   return (
-    <div className="bg-neutral-800 overflow-hidden flex flex-col justify-start items-center pb-10 relative">
-      <div className="h-[300px] w-[500px] animate-bgLight3 bg-emerald-500 rounded-full z-50 blur-2xl absolute bottom-[0%] right-0"></div>
+    <div className="bg-neutral-800 overflow-hidden flex flex-col justify-start items-center pb-10 px-10 relative">
+      <div className="h-[300px] w-[500px] max-[720px]:w-[400px] max-[720px]:h-[200px] max-[600px]:w-[300px] animate-bgLight3 bg-emerald-500 rounded-full z-50 blur-2xl absolute bottom-[0%] right-0"></div>
 
-      <div className="w-[500px]">
-        <SectionTitle title="Contact" />
-      </div>
+      <SectionTitle title="Contact" />
       <div className="mt-6">
         <p className="text-neutral-400 text-center font-semibold">
           Write me an e-mail at:

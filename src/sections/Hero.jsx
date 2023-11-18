@@ -16,9 +16,9 @@ function Hero() {
   }, []);
 
   return (
-    <div className="h-screen bg-neutral-950 py-10 px-1">
+    <div className="h-screen bg-neutral-950 py-10 px-1 max-[500px]:py-5">
       <div>
-        <div className="font-mono flex flex-col gap-2 text-3xl text-white p-2 ">
+        <div className="font-mono flex flex-col gap-2 max-[500px]:text-lg max-[500px]:p-0 max-[900px]:text-xl text-3xl text-white p-2">
           <p>
             <span className="text-green-600">viktor@user</span>:
             <span className="text-amber-400">~</span>$ irb{' '}
@@ -30,7 +30,7 @@ function Hero() {
             irb(main):002&#62; <span> I&apos;m Viktor</span>
           </p>
           <div className="flex">
-            <p className="mr-5">irb(main):003&#62;</p>
+            <p className="mr-5 max-[900px]:mr-3">irb(main):003&#62;</p>
             <div ref={typingRef}></div>
             <div className="w-2 animate-blinking bg-white"></div>
           </div>

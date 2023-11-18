@@ -43,7 +43,7 @@
         height: 100%;
         width: 99.5%;
         color: #171717;
-        transform: scale(1.01);
+        transform: scale(1.012);
         border-radius: 10px;
         filter: blur(3px);
         background-image: linear-gradient(
@@ -52,6 +52,12 @@
           opacity: 1;
         transition: opacity 0.5s;
         animation: spin 14s linear infinite;
+      }
+
+      @media  (max-width: 900px) {
+        .card::after {
+          transform: scaleX(1.02) scaleY(1.005) translateX(-15px);
+        }
       }
       
       @keyframes spin {

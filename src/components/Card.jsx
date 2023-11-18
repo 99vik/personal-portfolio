@@ -15,9 +15,11 @@ function Card({ project }) {
   });
   return (
     <animated.div
-      className="flex flex-col justify-start items-start w-[730px] bg-black p-2 pb-4 rounded-lg"
+      className="flex flex-col justify-start items-start w-[730px] max-[1050px]:w-[600px] max-[640px]:w-[500px] max-[500px]:w-screen bg-black p-2 pb-4 rounded-lg"
       style={props}
-      onMouseEnter={() => setShown(true)}
+      onMouseEnter={() => {
+        if (window.innerWidth > 720) setShown(true);
+      }}
       onMouseLeave={() => setShown(false)}
     >
       <div className="">

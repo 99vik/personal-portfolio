@@ -12,8 +12,8 @@ export default function Carroussel(props) {
   const [projects] = useState(table);
 
   return (
-    <div className="flex-1 w-full flex -mt-28 justify-between">
-      <div className="flex items-center justify-center w-[5%]">
+    <div className="flex-1 w-full flex -mt-28 max-[1050px]:-mt-44 max-[700px]:-mt-52 max-[400px]:-mt-72 justify-between max-[820px]:justify-center max-[820px]:items-center">
+      <div className="flex items-center justify-center max-[820px]:absolute max-[820px]:bottom-[110px] max-[820px]:left-[40%] w-[5%]">
         <button
           onClick={() => {
             setGoToSlide(goToSlide - 1);
@@ -29,7 +29,7 @@ export default function Carroussel(props) {
           </svg>
         </button>
       </div>
-      <div className="w-[35%]">
+      <div className="max-[1050px]:w-[30%] w-[35%]">
         <Carousel
           slides={projects}
           goToSlide={goToSlide}
@@ -37,7 +37,7 @@ export default function Carroussel(props) {
           animationConfig={config.gentle}
         />
       </div>
-      <div className="flex items-center justify-center w-[5%]">
+      <div className="flex items-center justify-center max-[820px]:absolute max-[820px]:bottom-[110px] max-[820px]:right-[40%] w-[5%]">
         <button
           onClick={() => {
             setGoToSlide(goToSlide + 1);
