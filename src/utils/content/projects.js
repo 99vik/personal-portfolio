@@ -40,17 +40,21 @@ const projects = [
       MessageAppImg6,
     ],
     description: 'Chatting application built with React and Rails API',
+    code: 'https://github.com/99vik/messaging-app',
+    live: 'https://cheery-peony-2b91b4.netlify.app/',
   },
   {
     name: "Where's Waldo?",
     images: [WaldoImg1, WaldoImg2, WaldoImg3],
     description:
       "Where's Waldo browser game built with React frontend and Rails API",
+    code: 'https://github.com/99vik/wheres-waldo',
   },
   {
     name: 'Odinbook',
     images: [OdinbookImg1, OdinbookImg2, OdinbookImg3],
     description: 'Simple social media app built with Ruby on Rails',
+    code: 'https://github.com/99vik/odinbook',
   },
   {
     name: 'Shopping Cart',
@@ -62,26 +66,36 @@ const projects = [
     ],
     description:
       'Simple React e-commerce app, fetching items from fakeapistore.com',
-  },
-  {
-    name: 'To-Do',
-    images: [TodoImg1, TodoImg2, TodoImg3],
-    description: 'To-do list application with vanilla JavaScript',
-  },
-  {
-    name: 'Battleship',
-    images: [BattleshipImg1, BattleshipImg2, BattleshipImg3],
-    description: 'Battleship game built with vanilla JavaScript',
-  },
-  {
-    name: 'Weather app',
-    images: [WeatherApp1, WeatherApp2, WeatherApp3],
-    description: 'Weather forecast application based on WeatherAPI',
+    code: 'https://github.com/99vik/shopping-cart-app',
+    live: 'https://gleeful-torte-b850af.netlify.app/',
   },
   {
     name: 'Chess',
     images: [ChessImg1, ChessImg2],
     description: 'CLI chess game built with Ruby',
+    code: 'https://github.com/99vik/Chess',
+    live: 'https://replit.com/@99vik/Chess',
+  },
+  {
+    name: 'To-Do',
+    images: [TodoImg1, TodoImg2, TodoImg3],
+    description: 'To-do list application with vanilla JavaScript',
+    code: 'https://github.com/99vik/odin-todo',
+    live: 'https://99vik.github.io/odin-todo/',
+  },
+  {
+    name: 'Battleship',
+    images: [BattleshipImg1, BattleshipImg2, BattleshipImg3],
+    description: 'Battleship game built with vanilla JavaScript',
+    code: 'https://github.com/99vik/battleship',
+    live: 'https://99vik.github.io/battleship/',
+  },
+  {
+    name: 'Weather Forecast',
+    images: [WeatherApp1, WeatherApp2, WeatherApp3],
+    description: 'Weather forecast application based on WeatherAPI',
+    code: 'https://github.com/99vik/weather-app',
+    live: 'https://99vik.github.io/weather-app/',
   },
 ];
 

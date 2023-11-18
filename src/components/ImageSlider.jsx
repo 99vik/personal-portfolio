@@ -15,7 +15,7 @@ export default function ImageSlider({ images }) {
   }
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden border border-neutral-700 rounded-md relative">
       <div
         className={`flex transition ease-out duration-300`}
         style={{
