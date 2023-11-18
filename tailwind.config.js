@@ -53,11 +53,34 @@ export default {
             transform: 'translate(-50%, -50%)',
           },
         },
+        light3: {
+          '0%': {
+            opacity: '15%',
+            transform: 'translate(50%, 50%)',
+          },
+          '25%': {
+            opacity: '20%',
+            transform: 'translate(60%, 60%)',
+          },
+          '50%': {
+            opacity: '25%',
+            transform: 'translate(65%, 60%)',
+          },
+          '75%': {
+            opacity: '20%',
+            transform: 'translate(60%, 65%)',
+          },
+          '100%': {
+            opacity: '15%',
+            transform: 'translate(50%, 50%)',
+          },
+        },
       },
       animation: {
         blinking: 'blink 1s cubic-bezier(1.000, -0.600, 0.000, 1.650) infinite',
         bgLight: 'light 15s infinite alternate',
         bgLight2: 'light2 15s infinite alternate',
+        bgLight3: 'light3 10s infinite alternate',
       },
     },
   },
