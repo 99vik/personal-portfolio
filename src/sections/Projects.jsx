@@ -13,6 +13,8 @@ function Projects() {
 
   return (
     <div className="h-screen bg-gradient-to-b from-neutral-900 to-neutral-800 flex flex-col justify-start items-center relative">
+      <div className="h-[250px] w-[100px] animate-bgLight2 bg-emerald-500 rounded-full z-50 blur-3xl absolute -top-[10%] left-0"></div>
+
       <div className="w-[700px]">
         <SectionTitle title="Projects" />
       </div>
