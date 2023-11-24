@@ -78,9 +78,9 @@ export default {
       },
       animation: {
         blinking: 'blink 1s cubic-bezier(1.000, -0.600, 0.000, 1.650) infinite',
-        bgLight: 'light 15s infinite alternate',
-        bgLight2: 'light2 15s infinite alternate',
-        bgLight3: 'light3 10s infinite alternate',
+        bgLight: 'light 10s infinite alternate',
+        bgLight2: 'light2 10s infinite alternate',
+        bgLight3: 'light3 6s infinite alternate',
       },
     },
   },
