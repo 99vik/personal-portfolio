@@ -10,6 +10,9 @@ import {
   MessageAppImg4,
   MessageAppImg5,
   MessageAppImg6,
+  MusicApp1,
+  MusicApp2,
+  MusicApp3,
   OdinbookImg1,
   OdinbookImg2,
   OdinbookImg3,
@@ -42,6 +45,14 @@ const projects = [
     description: 'Chatting application built with React and Rails API',
     code: 'https://github.com/99vik/messaging-app',
     live: 'https://cheery-peony-2b91b4.netlify.app/',
+  },
+  {
+    name: 'Music App',
+    images: [MusicApp1, MusicApp2, MusicApp3],
+    description:
+      'Application for discovering and searching music, built with React and Redux.',
+    code: 'https://github.com/99vik/music-app',
+    live: 'https://cheery-otter-4391cd.netlify.app/',
   },
   {
     name: "Where's Waldo?",

@@ -3,6 +3,8 @@ import RubyIcon from '../assets/skills-icons/ruby.png';
 import PythonIcon from '../assets/skills-icons/python.png';
 import HTMLIcon from '../assets/skills-icons/html.png';
 import SQLIcon from '../assets/skills-icons/sql.png';
+import TypeScriptIcon from '../assets/skills-icons/typescript.png';
+import ReduxIcon from '../assets/skills-icons/redux.png';
 import CSSIcon from '../assets/skills-icons/css.png';
 import RailsIcon from '../assets/skills-icons/rails.png';
 import ReactIcon from '../assets/skills-icons/react.png';
@@ -11,6 +13,7 @@ import TailwindIcon from '../assets/skills-icons/tailwind.png';
 import GitIcon from '../assets/skills-icons/git.png';
 import GithubIcon from '../assets/skills-icons/github.png';
 import ViteIcon from '../assets/skills-icons/vite.png';
+import JestIcon from '../assets/skills-icons/jest.png';
 import WebpackIcon from '../assets/skills-icons/webpack.png';
 import VSCodeIcon from '../assets/skills-icons/vscode.png';
 import MessageAppImg1 from '../assets/projects/messageapp1.png';
@@ -40,6 +43,9 @@ import BattleshipImg2 from '../assets/projects/battleship2.png';
 import BattleshipImg3 from '../assets/projects/battleship3.png';
 import ChessImg1 from '../assets/projects/chess1.png';
 import ChessImg2 from '../assets/projects/chess2.png';
+import MusicApp1 from '../assets/projects/musicapp1.png';
+import MusicApp2 from '../assets/projects/musicapp2.png';
+import MusicApp3 from '../assets/projects/musicapp3.png';
 
 export {
   JavaScriptIcon,
@@ -50,9 +56,12 @@ export {
   CSSIcon,
   RailsIcon,
   ReactIcon,
+  TypeScriptIcon,
+  ReduxIcon,
   PostgreSQLIcon,
   TailwindIcon,
   GitIcon,
+  JestIcon,
   GithubIcon,
   ViteIcon,
   WebpackIcon,
@@ -84,4 +93,7 @@ export {
   WeatherApp3,
   ChessImg1,
   ChessImg2,
+  MusicApp1,
+  MusicApp2,
+  MusicApp3,
 };

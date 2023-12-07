@@ -4,13 +4,16 @@ import {
   GithubIcon,
   HTMLIcon,
   JavaScriptIcon,
+  JestIcon,
   PostgreSQLIcon,
   PythonIcon,
   RailsIcon,
   ReactIcon,
+  ReduxIcon,
   RubyIcon,
   SQLIcon,
   TailwindIcon,
+  TypeScriptIcon,
   VSCodeIcon,
   ViteIcon,
   WebpackIcon,
@@ -23,6 +26,10 @@ export const skills = [
       {
         name: 'JavaScript',
         icon: JavaScriptIcon,
+      },
+      {
+        name: 'TypeScript',
+        icon: TypeScriptIcon,
       },
       {
         name: 'Ruby',
@@ -65,6 +72,14 @@ export const skills = [
         name: 'PostgreSQL',
         icon: PostgreSQLIcon,
       },
+      {
+        name: 'Jest',
+        icon: JestIcon,
+      },
+      {
+        name: 'Redux',
+        icon: ReduxIcon,
+      },
     ],
   },
   {
@@ -93,72 +108,3 @@ export const skills = [
     ],
   },
 ];
-
-// export const skills = {
-//   languages: [
-//     {
-//       name: 'JavaScript',
-//       icon: JavaScriptIcon,
-//     },
-//     {
-//       name: 'Ruby',
-//       icon: RubyIcon,
-//     },
-//     {
-//       name: 'Python',
-//       icon: PythonIcon,
-//     },
-//     {
-//       name: 'HTML',
-//       icon: HTMLIcon,
-//     },
-//     {
-//       name: 'CSS',
-//       icon: CSSIcon,
-//     },
-//     {
-//       name: 'SQL',
-//       icon: SQLIcon,
-//     },
-//   ],
-//   frameworks: [
-//     {
-//       name: 'Rails',
-//       icon: RailsIcon,
-//     },
-//     {
-//       name: 'React',
-//       icon: ReactIcon,
-//     },
-//     {
-//       name: 'Tailwind',
-//       icon: TailwindIcon,
-//     },
-//     {
-//       name: 'PostgreSQL',
-//       icon: PostgreSQLIcon,
-//     },
-//   ],
-//   misc: [
-//     {
-//       name: 'Git',
-//       icon: GitIcon,
-//     },
-//     {
-//       name: 'Github',
-//       icon: GithubIcon,
-//     },
-//     {
-//       name: 'Vite',
-//       icon: ViteIcon,
-//     },
-//     {
-//       name: 'Webpack',
-//       icon: WebpackIcon,
-//     },
-//     {
-//       name: 'VS Code',
-//       icon: VSCodeIcon,
-//     },
-//   ],
-// };
