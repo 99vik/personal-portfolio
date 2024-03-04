@@ -5,16 +5,18 @@ import {
   HTMLIcon,
   JavaScriptIcon,
   JestIcon,
+  NextjsIcon,
   PostgreSQLIcon,
+  PrismaIcon,
   PythonIcon,
   RailsIcon,
   ReactIcon,
   ReduxIcon,
   RubyIcon,
-  SQLIcon,
+  ShadcnIcon,
+  TRPCIcon,
   TailwindIcon,
   TypeScriptIcon,
-  VSCodeIcon,
   ViteIcon,
   WebpackIcon,
 } from '../ImagesExports';
@@ -47,22 +49,22 @@ export const skills = [
         name: 'CSS',
         icon: CSSIcon,
       },
-      {
-        name: 'SQL',
-        icon: SQLIcon,
-      },
     ],
   },
   {
     title: 'Frameworks, libraries, databases',
     data: [
       {
-        name: 'Rails',
-        icon: RailsIcon,
-      },
-      {
         name: 'React',
         icon: ReactIcon,
+      },
+      {
+        name: 'Next.js',
+        icon: NextjsIcon,
+      },
+      {
+        name: 'Rails',
+        icon: RailsIcon,
       },
       {
         name: 'Tailwind',
@@ -73,12 +75,20 @@ export const skills = [
         icon: PostgreSQLIcon,
       },
       {
+        name: 'Prisma',
+        icon: PrismaIcon,
+      },
+      {
         name: 'Jest',
         icon: JestIcon,
       },
       {
         name: 'Redux',
         icon: ReduxIcon,
+      },
+      {
+        name: 'tRPC',
+        icon: TRPCIcon,
       },
     ],
   },
@@ -102,8 +112,8 @@ export const skills = [
         icon: WebpackIcon,
       },
       {
-        name: 'VS Code',
-        icon: VSCodeIcon,
+        name: 'shadcn/ui',
+        icon: ShadcnIcon,
       },
     ],
   },

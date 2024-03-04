@@ -2,7 +2,6 @@ import JavaScriptIcon from '../assets/skills-icons/javascript.png';
 import RubyIcon from '../assets/skills-icons/ruby.png';
 import PythonIcon from '../assets/skills-icons/python.png';
 import HTMLIcon from '../assets/skills-icons/html.png';
-import SQLIcon from '../assets/skills-icons/sql.png';
 import TypeScriptIcon from '../assets/skills-icons/typescript.png';
 import ReduxIcon from '../assets/skills-icons/redux.png';
 import CSSIcon from '../assets/skills-icons/css.png';
@@ -15,7 +14,11 @@ import GithubIcon from '../assets/skills-icons/github.png';
 import ViteIcon from '../assets/skills-icons/vite.png';
 import JestIcon from '../assets/skills-icons/jest.png';
 import WebpackIcon from '../assets/skills-icons/webpack.png';
-import VSCodeIcon from '../assets/skills-icons/vscode.png';
+import NextjsIcon from '../assets/skills-icons/nextjs.png';
+import PrismaIcon from '../assets/skills-icons/prisma.png';
+import TRPCIcon from '../assets/skills-icons/trpc.png';
+import ShadcnIcon from '../assets/skills-icons/shadcn.png';
+
 import MessageAppImg1 from '../assets/projects/messageapp1.png';
 import MessageAppImg2 from '../assets/projects/messageapp2.png';
 import MessageAppImg3 from '../assets/projects/messageapp3.png';
@@ -32,12 +35,6 @@ import ShoppingAppImg4 from '../assets/projects/shoppingapp4.png';
 import OdinbookImg1 from '../assets/projects/odinbook1.png';
 import OdinbookImg2 from '../assets/projects/odinbook2.png';
 import OdinbookImg3 from '../assets/projects/odinbook3.png';
-import TodoImg1 from '../assets/projects/todo1.png';
-import TodoImg2 from '../assets/projects/todo2.png';
-import TodoImg3 from '../assets/projects/todo3.png';
-import WeatherApp1 from '../assets/projects/weatherapp1.png';
-import WeatherApp2 from '../assets/projects/weatherapp2.png';
-import WeatherApp3 from '../assets/projects/weatherapp3.png';
 import BattleshipImg1 from '../assets/projects/battleship1.png';
 import BattleshipImg2 from '../assets/projects/battleship2.png';
 import BattleshipImg3 from '../assets/projects/battleship3.png';
@@ -46,13 +43,15 @@ import ChessImg2 from '../assets/projects/chess2.png';
 import MusicApp1 from '../assets/projects/musicapp1.png';
 import MusicApp2 from '../assets/projects/musicapp2.png';
 import MusicApp3 from '../assets/projects/musicapp3.png';
+import PdfChatter1 from '../assets/projects/pdfchatter1.png';
+import PdfChatter2 from '../assets/projects/pdfchatter2.png';
+import PdfChatter3 from '../assets/projects/pdfchatter3.png';
 
 export {
   JavaScriptIcon,
   PythonIcon,
   RubyIcon,
   HTMLIcon,
-  SQLIcon,
   CSSIcon,
   RailsIcon,
   ReactIcon,
@@ -65,7 +64,10 @@ export {
   GithubIcon,
   ViteIcon,
   WebpackIcon,
-  VSCodeIcon,
+  NextjsIcon,
+  PrismaIcon,
+  TRPCIcon,
+  ShadcnIcon,
   MessageAppImg1,
   MessageAppImg2,
   MessageAppImg3,
@@ -82,18 +84,15 @@ export {
   OdinbookImg1,
   OdinbookImg2,
   OdinbookImg3,
-  TodoImg1,
-  TodoImg2,
-  TodoImg3,
   BattleshipImg1,
   BattleshipImg2,
   BattleshipImg3,
-  WeatherApp1,
-  WeatherApp2,
-  WeatherApp3,
   ChessImg1,
   ChessImg2,
   MusicApp1,
   MusicApp2,
   MusicApp3,
+  PdfChatter1,
+  PdfChatter2,
+  PdfChatter3,
 };

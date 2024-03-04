@@ -16,22 +16,27 @@ import {
   OdinbookImg1,
   OdinbookImg2,
   OdinbookImg3,
+  PdfChatter1,
+  PdfChatter2,
+  PdfChatter3,
   ShoppingAppImg1,
   ShoppingAppImg2,
   ShoppingAppImg3,
   ShoppingAppImg4,
-  TodoImg1,
-  TodoImg2,
-  TodoImg3,
   WaldoImg1,
   WaldoImg2,
   WaldoImg3,
-  WeatherApp1,
-  WeatherApp2,
-  WeatherApp3,
 } from '../ImagesExports';
 
 const projects = [
+  {
+    name: 'PDF chatter',
+    images: [PdfChatter1, PdfChatter2, PdfChatter3],
+    description:
+      'Next.js application where you upload PDF and chat about it with AI.',
+    code: 'https://github.com/99vik/pdf-chatter',
+    live: 'https://pdf-chatter-ivory.vercel.app/',
+  },
   {
     name: 'Messaging App',
     images: [
@@ -45,14 +50,6 @@ const projects = [
     description: 'Chatting application built with React and Rails API',
     code: 'https://github.com/99vik/messaging-app',
     live: 'https://cheery-peony-2b91b4.netlify.app/',
-  },
-  {
-    name: 'Music App',
-    images: [MusicApp1, MusicApp2, MusicApp3],
-    description:
-      'Application for discovering and searching music, built with React and Redux.',
-    code: 'https://github.com/99vik/music-app',
-    live: 'https://cheery-otter-4391cd.netlify.app/',
   },
   {
     name: "Where's Waldo?",
@@ -88,13 +85,6 @@ const projects = [
     live: 'https://replit.com/@99vik/Chess',
   },
   {
-    name: 'To-Do',
-    images: [TodoImg1, TodoImg2, TodoImg3],
-    description: 'To-do list application with vanilla JavaScript',
-    code: 'https://github.com/99vik/odin-todo',
-    live: 'https://99vik.github.io/odin-todo/',
-  },
-  {
     name: 'Battleship',
     images: [BattleshipImg1, BattleshipImg2, BattleshipImg3],
     description: 'Battleship game built with vanilla JavaScript',
@@ -102,11 +92,12 @@ const projects = [
     live: 'https://99vik.github.io/battleship/',
   },
   {
-    name: 'Weather Forecast',
-    images: [WeatherApp1, WeatherApp2, WeatherApp3],
-    description: 'Weather forecast application based on WeatherAPI',
-    code: 'https://github.com/99vik/weather-app',
-    live: 'https://99vik.github.io/weather-app/',
+    name: 'Music App',
+    images: [MusicApp1, MusicApp2, MusicApp3],
+    description:
+      'Application for discovering and searching music, built with React and Redux.',
+    code: 'https://github.com/99vik/music-app',
+    live: 'https://cheery-otter-4391cd.netlify.app/',
   },
 ];
 
