@@ -45,22 +45,21 @@
         bottom: 0;
         z-index: -1;
         height: 100%;
-        width: 99.5%;
+        width: 99%;
         color: #171717;
-        transform: scale(1.012);
+        transform: scale(1.03);
         border-radius: 10px;
-        filter: blur(3px);
+        filter: blur(6px);
         background-image: linear-gradient(
           var(--rotate)
-          , rgba(5, 204, 248), #34d39900, rgba(6, 255, 164));
+          , rgba(5, 204, 248), #dd00ff, rgba(6, 255, 164));
           opacity: 1;
-        transition: opacity 0.5s;
-        animation: spin 14s linear infinite;
+        animation: spin 12s linear infinite;
       }
 
       @media  (max-width: 900px) {
         .card::after {
-          transform: scaleX(1.02) scaleY(1.005) translateX(-15px);
+          transform: scaleX(1.02) scaleY(1.005) translateX(-6.5px);
         }
       }
       
