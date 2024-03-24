@@ -24435,7 +24435,7 @@ const V4 = [
 function Q4() {
   return Z.jsxs('div', {
     className:
-      'bg-neutral-900 min-h-[90vh] z-50 relative flex flex-col justify-start items-center max-[980px]:pb-14 ',
+      'bg-neutral-900 min-h-[90vh] max-sm:pt-24 z-50 relative flex flex-col justify-start items-center max-[980px]:pb-28 ',
     children: [
       Z.jsx('div', {
         className:
@@ -24448,7 +24448,7 @@ function Q4() {
           Z.jsx(eu, { title: 'Skills, tools & technologies' }),
           Z.jsx('div', {
             className:
-              'bg-neutral-950 card flex max-[980px]:flex-col w-[950px] max-[980px]:w-[360px] gap-8 text-neutral-400 text-sm font-semibold px-2 pt-10 pb-12 rounded-xl',
+              'bg-neutral-950 card flex max-[980px]:flex-col w-[950px] max-[980px]:w-[360px] gap-8 text-neutral-400 text-sm font-semibold mt-2 px-2 pt-10 pb-12 rounded-xl',
             children: V4.map((e, t) =>
               Z.jsxs(
                 'div',
