@@ -12,7 +12,7 @@ function About() {
   });
 
   return (
-    <div className="bg-gradient-to-b flex font-semibold z-0 text-neutral-300 text-lg items-start justify-center from-neutral-950 to-neutral-900 h-screen py-10 px-20 max-[900px]:px-10 max-[500px]:px-3">
+    <div className="bg-gradient-to-b flex font-semibold z-0 text-neutral-300 text-lg items-start justify-center from-neutral-950 to-neutral-900 sm:h-screen py-10 px-20 max-[900px]:px-10 max-[500px]:px-3">
       <div className="w-[700px] flex flex-col gap-4">
         <SectionTitle title="About" />
         {content}

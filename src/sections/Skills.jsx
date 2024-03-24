@@ -3,7 +3,7 @@ import { skills } from '../utils/content/skills.js';
 
 function Skills() {
   return (
-    <div className="bg-neutral-900 min-h-[90vh] max-sm:pt-24 z-50 relative flex flex-col justify-start items-center max-[980px]:pb-28 ">
+    <div className="bg-neutral-900 min-h-screen max-sm:pt-20 z-50 relative flex flex-col justify-start items-center max-[980px]:pb-20 ">
       <div className="h-[500px] w-[300px] animate-bgLight bg-emerald-500 rounded-full z-50 blur-3xl absolute -top-[45%] right-0"></div>
       <div className="flex w-[850px] max-[800px]:w-screen max-[800px]:px-10 max-[500px]:px-2 flex-col items-center max-[980px]:items-center gap-8">
         <SectionTitle title="Skills, tools & technologies" />
